@@ -1,0 +1,64 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.nav-logo img{
+    height: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 135px;
+    margin-top: 135px;
+    padding-left: 50px;
+}
+header{
+    background-color: #fffbf0;
+}
+.half-width img{
+    width: 100%;
+}
+h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+h2{
+    font-size: 33px;
+    font-weight: 600;
+}
+.header-color{
+    color: #fabe4c;
+}
+.text-color{
+    color: #363958;
+}
+.btn{
+    background-color: #a4bc46;
+    padding: 20px 50px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+}
+.man-card img, .woman-card img{
+    height: 60%;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.man-card, .woman-card{
+    border: 0;
+    border-radius: 20px;
+    background-color: white;
+}
+.man-card-footer, .woman-card-footer{
+    border: 0;
+    background-color: white;
+}
+.font-awsm{
+    font-size: 40px;
+}
+@media (max-width: 920px;){
+   #last-area{
+       display: block;
+   }
+}
